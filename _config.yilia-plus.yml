@@ -5,7 +5,7 @@ menu:
 
 subNav:
   - github: "https://github.com/MadridLee"
-  - rss: "/atom.xml"
+  - jianshu: "https://www.jianshu.com/u/0fb1be47e89d"
 
 hover_effect:
   global: 2
@@ -34,7 +34,7 @@ baidu_analytics: ''
 google_analytics: ''
 
 favicon: /favicon.ico
-avatar: /img/head.jpg
+avatar: https://github.com/MadridLee.png
 
 share_jia: false
 
@@ -139,4 +139,4 @@ smart_menu:
 
 friends: {}
 
-aboutme: MadridLee 的个人博客，记录技术、生活与思考。
+aboutme: 你好，我是 MadridLee。<br>这里记录技术、产品与生活思考。<br>欢迎通过 GitHub 和简书交流。

@@ -1,6 +1,6 @@
-title: MadridLee Memoirs
-subtitle: ''
-description: 记录技术、生活与思考。
+title: MadridLee Blog
+subtitle: MadridLee · 技术与生活记录
+description: 你好，我是 MadridLee，这里记录开发笔记、效率工具与日常思考。
 keywords: []
 author: MadridLee
 language: zh-CN
@@ -62,3 +62,22 @@ theme: yilia-plus
 
 deploy:
   type: ''
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
