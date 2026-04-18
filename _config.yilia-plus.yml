@@ -1,7 +1,9 @@
 menu:
   主页: /
-  归档: /archives/
-  关于: /about/
+  技术贴: /tech/
+  出去玩: /travel/
+  随手记: /jottings/
+  乱七八糟: /misc/
 
 subNav:
   - github: "https://github.com/MadridLee"
@@ -19,7 +21,7 @@ mathjax: false
 
 open_in_new:
   article: true
-  menu: true
+  menu: false
   subNav: true
 
 reward_type: 0
@@ -74,8 +76,7 @@ music:
 clickLove:
   enable: false
 
-github:
-  url: https://github.com/MadridLee/lan
+github: false
 
 pageFooter:
   litten: GitHub:<a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">hexo-theme-yilia-plus</a>
@@ -135,6 +136,7 @@ slider:
 
 smart_menu:
   innerArchive: '所有文章'
+  friends: false
   aboutme: '关于我'
 
 friends: {}
