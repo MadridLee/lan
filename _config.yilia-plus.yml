@@ -1,0 +1,142 @@
+menu:
+  主页: /
+  归档: /archives/
+  关于: /about/
+
+subNav:
+  - github: "https://github.com/MadridLee"
+  - rss: "/atom.xml"
+
+hover_effect:
+  global: 2
+  subNav: true
+
+rss: /atom.xml
+
+excerpt_link: more
+show_all_link: '阅读全文'
+mathjax: false
+
+open_in_new:
+  article: true
+  menu: true
+  subNav: true
+
+reward_type: 0
+
+toc: 1
+toc_hide_index: true
+toc_empty_wording: '目录，不存在的…'
+
+top: true
+
+baidu_analytics: ''
+google_analytics: ''
+
+favicon: /favicon.ico
+avatar: /img/head.jpg
+
+share_jia: false
+
+changyan_appid: false
+changyan_conf: false
+disqus: false
+
+gitment_owner: false
+gitment_remote: false
+gitment_repo: ''
+gitment_oauth:
+  client_id: ''
+  client_secret: ''
+
+giteement:
+  enable: false
+  remote: false
+  redirect_uri: ''
+  oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
+  giteeID: ''
+  repo: ''
+  gitment_oauth:
+    client_id: ''
+    client_secret: ''
+
+busuanzi:
+  enable: true
+  site_visit: true
+  article_visit: true
+
+music:
+  enable: false
+  type: 2
+  autoPlay: false
+  text: false
+
+clickLove:
+  enable: false
+
+github:
+  url: https://github.com/MadridLee/lan
+
+pageFooter:
+  litten: GitHub:<a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">hexo-theme-yilia-plus</a>
+
+baidu_push: false
+
+copyright_type: 1
+copyright_text: false
+
+since: 2026
+
+progressBar:
+  enable: true
+  type: 'minimal'
+  color: blue
+
+apple_touch_icon: '/apple-touch-icon-180x180.png'
+
+tab_title_change:
+  enable: true
+  left_tab_title: '(つェ⊂) 我藏好了哦~ '
+  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+
+word_count:
+  enable: false
+  only_article_visit: true
+
+activate_power_mode:
+  enable: false
+  colorful: false
+  shake: false
+
+snow: false
+
+live2d:
+  enable: false
+  model: hibiki
+  display:
+    position: right
+    width: 145
+    height: 315
+    hOffset: 50
+  mobile:
+    show: false
+    scale: 0.6
+  react:
+    opacity: 0.8
+
+style:
+  header: '#4d4d4d'
+  gif:
+    enable: false
+  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+
+slider:
+  showTags: true
+
+smart_menu:
+  innerArchive: '所有文章'
+  aboutme: '关于我'
+
+friends: {}
+
+aboutme: MadridLee 的个人博客，记录技术、生活与思考。

@@ -1,17 +1,64 @@
 title: MadridLee Memoirs
+subtitle: ''
 description: 记录技术、生活与思考。
-url: "https://madridlee.github.io"
-baseurl: "/lan"
-theme: minima
-lang: zh-CN
+keywords: []
+author: MadridLee
+language: zh-CN
 timezone: Asia/Shanghai
-author:
-  name: MadridLee
 
-show_excerpts: false
+url: https://madridlee.github.io
+root: /lan/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
 
-header_pages:
-  - about.md
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
-plugins:
-  - jekyll-feed
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+per_page: 10
+pagination_dir: page
+
+theme: yilia-plus
+
+deploy:
+  type: ''
