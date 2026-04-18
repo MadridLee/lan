@@ -25,7 +25,7 @@ hexo.extend.filter.register('before_generate', function() {
     subNav: true
   };
   themeConfig.smart_menu = {
-    innerArchive: '所有文章',
+    innerArchive: false,
     friends: false,
     aboutme: '关于我'
   };

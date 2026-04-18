@@ -135,7 +135,7 @@ slider:
   showTags: true
 
 smart_menu:
-  innerArchive: '所有文章'
+  innerArchive: false
   friends: false
   aboutme: '关于我'
 
