@@ -1,5 +1,5 @@
-title: MadridLee Blog
-description: MadridLee's personal blog hosted on GitHub Pages.
+title: MadridLee Memoirs
+description: 记录技术、生活与思考。
 url: "https://madridlee.github.io"
 baseurl: "/lan"
 theme: minima
@@ -7,6 +7,8 @@ lang: zh-CN
 timezone: Asia/Shanghai
 author:
   name: MadridLee
+
+show_excerpts: false
 
 header_pages:
   - about.md

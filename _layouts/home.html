@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="memoir-hero">
+  <p class="memoir-kicker">Memoirs</p>
+  <h1 class="memoir-title">{{ site.title | escape }}</h1>
+  <p class="memoir-subtitle">{{ site.description | escape }}</p>
+</section>
+
+<section class="memoir-feed">
+  {% if site.posts.size > 0 %}
+    <ul class="memoir-post-list">
+      {% for post in site.posts %}
+        <li class="memoir-post-item">
+          <p class="memoir-post-date">{{ post.date | date: "%Y.%m.%d" }}</p>
+          <h2 class="memoir-post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+          <p class="memoir-post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="memoir-empty">第一篇文章正在路上。</p>
+  {% endif %}
+</section>
